@@ -1,0 +1,349 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.challenge:spring-data-ddl >--------------------
+[INFO] Building spring-data-ddl 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-data-ddl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-data-ddl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /home/wittho/codenation/java-9/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-data-ddl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wittho/codenation/java-9/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-data-ddl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/wittho/codenation/java-9/target/test-classes
+[INFO] /home/wittho/codenation/java-9/src/test/java/com/challenge/suite/ClassTest.java: /home/wittho/codenation/java-9/src/test/java/com/challenge/suite/ClassTest.java uses unchecked or unsafe operations.
+[INFO] /home/wittho/codenation/java-9/src/test/java/com/challenge/suite/ClassTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-data-ddl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.challenge.suite.ChallengeTestSuite
+19:53:19.855 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.889 [main] INFO org.reflections.Reflections - Reflections took 33 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.939 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.941 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.944 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.946 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.948 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.951 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.952 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.961 [main] INFO org.reflections.Reflections - Reflections took 8 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.964 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.965 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.967 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.968 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.973 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.974 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.975 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.977 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.978 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.979 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.981 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.983 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.984 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.985 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.986 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.988 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.989 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.990 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.993 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:19.994 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:19.997 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.000 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.003 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.004 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.005 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.006 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.008 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.009 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.013 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.014 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.015 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.016 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.018 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.019 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.021 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.022 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.023 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.024 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.025 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.026 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.027 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.028 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.029 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.030 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.030 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.031 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.032 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.033 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.034 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.035 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.036 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.037 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.039 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.040 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.041 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.043 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.044 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.045 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.045 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.046 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.048 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.050 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.053 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.054 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.055 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.056 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.057 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.058 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.059 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.060 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.061 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.062 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.063 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.064 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.064 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.066 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.066 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.067 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.068 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.069 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.070 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.071 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.072 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.073 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.074 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.075 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.076 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.077 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.077 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.078 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.079 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.080 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.080 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.081 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.082 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.083 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.084 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.084 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.086 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.086 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.087 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.088 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.089 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.090 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.090 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.091 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.092 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.093 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.094 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.094 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.096 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.098 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.100 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.102 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.103 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.104 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.105 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.106 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.107 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.108 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.109 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.110 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.110 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.111 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.112 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.112 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.113 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.114 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.115 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.115 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.116 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.117 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.118 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.118 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.119 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.120 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.121 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.121 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.122 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.123 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.123 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.124 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.126 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.127 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.135 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.137 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.140 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.143 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.145 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.147 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.148 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.152 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.154 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.155 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.156 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.157 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.158 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.158 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.159 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.160 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.161 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.161 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.162 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.163 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.164 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.164 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.165 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.166 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.166 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.167 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.168 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.173 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.174 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.175 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.176 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.176 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.179 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.180 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.180 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.181 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.182 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.183 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.184 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.184 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.185 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.186 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.186 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.187 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.188 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.188 [main] INFO org.reflections.Reflections - Reflections took 0 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.192 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.194 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+19:53:20.196 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/home/wittho/codenation/java-9/target/classes/
+19:53:20.197 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 4 keys and 16 values 
+[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.463 s - in com.challenge.suite.ChallengeTestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.864 s
+[INFO] Finished at: 2021-09-18T19:53:20-03:00
+[INFO] ------------------------------------------------------------------------
